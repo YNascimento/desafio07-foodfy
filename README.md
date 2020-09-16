@@ -3,10 +3,10 @@
 </h1>
 
 <h3 align="center">
-  Desafios Módulo 3 - Iniciando no Back-end
+  Desafio 8: Apresentação e Organização das Receitas Foodfy
 </h3>
 
-<blockquote align="center">“Faça seu melhor, mas sempre com prazo de entrega!”</blockquote>
+<blockquote align="center">“Você nunca sai perdendo quando ganha conhecimento!”</blockquote>
 
 <p align="center">
 
@@ -21,25 +21,34 @@
 </p>
 
 <p align="center">
-  <a href="#rocket-desafios">Desafios</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#calendar-entrega">Entrega</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
+  <a href="#rocket-sobre-o-desafio">Sobre o desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#calendar-entrega">Entrega</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
-## :rocket: Desafios
+## :rocket: Sobre o desafio
 
-- [Primeiro servidor](desafios/03-1-primeiro-servidor.md)
-- [Arquivos nunjucks e dados dinâmicos](desafios/03-2-nunjucks-e-dados-dinamicos.md)
-- [Página de descrição do curso](desafios/03-3-pagina-descricao-curso.md)
-- [Refatorando Foodfy](desafios/03-refatorando-foodfy.md)
+Nesse desafio você irá implementar melhorias na listagem das receitas.
+
+### Ordenação
+
+A apresentação das receitas para os clientes, tanto a página de listagem receitas, como a seção de receitas dos chefs, deverá ser **ordenada** por **últimas cadastradas**.
+
+DICA: Use o campo `created_at` para fazer essa ordenação
+
+A **página de busca** deverá ser ordenada por **últimas receitas atualizadas**.
+
+DICA: Use o campo `updated_at` para fazer essa ordenação
+
+**Lembre** de criar `Triggers` e `Procedures` para auto atualizar o campo `updated_at` no banco de dados, sempre que um conteúdo for atualizado.
 
 ## :calendar: Entrega
 
-Esses desafios **não precisam ser entregues** e não receberão correção. Após concluí-los, adicionar esses códigos ao seu Github é uma boa forma de demonstrar seus conhecimentos para oportunidades futuras.
+Esse desafio **não precisa ser entregue** e não receberá correção. Após concluí-lo, adicionar esse código ao seu Github é uma boa forma de demonstrar seus conhecimentos para oportunidades futuras.
 
 ## :memo: Licença
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](/LICENSE) para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](../LICENSE) para mais detalhes.
 
 ---
 
